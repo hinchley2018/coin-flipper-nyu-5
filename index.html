@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flipper</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <h1>Penny Flip Game</h1>
+    <img id="penny-image" src="./penny-heads.jpg" alt="coin image"/>
+    <hr/>
+    <button id="flip">Flip The Penny!</button>
+    <button id="clear">Clear Scoreboard</button>
+    <hr/>
+    <h2 id="status-text">You Flipped Heads!</h2>
+    <hr/>
+    <h3>Scoreboard</h3>
+    <table style="width:100%">
+        <tr>
+          <th>Number of Heads</th>
+          <th>Percentage Heads</th>
+          <th>Number of Tails</th>
+          <th>Percentage Tails</th>
+        </tr>
+        <tr>
+          <td id="number-heads">0</td>
+          <td id="percentage-heads">0%</td>
+          <td id="number-tails">0</td>
+          <td id="percentage-tails">0%</td>
+        </tr>
+      </table>
+      <script src="./index.js"></script>
+</body>
+</html>
